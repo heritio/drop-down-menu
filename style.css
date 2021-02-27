@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.menu_tab{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+}
+
+.dropdown{
+  
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  
+}
+
+.dropdowncontent{
+  padding: 0 18px;
+  opacity: 0;
+  transform: translateY(-150px);
+  width: 100%;
+  position: absolute;
+  background-color: rebeccapurple;
+}
+
+.opened{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.widther{
+    width: 100%;
+    border-left: 1px solid black;
+    position: relative;
+}
